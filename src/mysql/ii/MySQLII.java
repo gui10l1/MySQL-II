@@ -113,6 +113,7 @@ public class MySQLII {
 
     }
 
+    //MÉTODO PARA CADASTRAR UM NOVO USUÁRIO
     static void inserirUsuario(String email, String senha) {
         try {
             //*****************************************************CONEXÃO COM O BANCO DA DADOS****************************************\\
