@@ -3,6 +3,7 @@ package mysql.ii;
 public class Tarefa {
     private String assunto;
     private boolean finalizada;
+    private int id;
     
     //Assunto
     public void setAssunto(String assunto){
@@ -21,4 +22,5 @@ public class Tarefa {
     public boolean getFinalizada(){
         return finalizada;
     }
+   
 }
